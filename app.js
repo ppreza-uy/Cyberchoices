@@ -207,7 +207,7 @@
 
         <div class="neighborhood-shell ${selectedCampaign ? "has-selection" : ""} ${showNamePrompt ? "is-onboarding" : ""}" data-selected="${selectedDistrict || "none"}">
           <div class="map-stage">
-            <img class="neighborhood-art" src="assets/cyber-neighborhood.png" alt="Futuristic neighborhood with a bank, medical center, and government building surrounding a central plaza" />
+            <img class="neighborhood-art" src="cyber-neighborhood.png" alt="Futuristic neighborhood with a bank, medical center, and government building surrounding a central plaza" />
             <div class="map-vignette" aria-hidden="true"></div>
 
             <div class="district-ribbon">
@@ -247,7 +247,7 @@
 
             <img
               class="operator-avatar ${selectedCampaign ? "at-destination" : ""}"
-              src="assets/operator-avatar.png"
+              src="operator-avatar.png"
               alt="Cyber Response Unit operator"
               style="--operator-left: ${operatorPosition.left}; --operator-top: ${operatorPosition.top};"
             />
